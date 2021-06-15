@@ -1,0 +1,4 @@
+SELECT P.NAME, V.NAME
+FROM PRODUCTS P JOIN PROVIDERS V ON P.id_providers = V.ID
+                JOIN CATEGORIES C ON P.id_categories = C.ID
+WHERE C.ID = 6

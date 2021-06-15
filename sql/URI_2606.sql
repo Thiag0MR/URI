@@ -1,0 +1,3 @@
+SELECT P.id, p.NAME
+FROM PRODUCTS P JOIN CATEGORIES C ON P.id_categories = C.ID
+WHERE C.NAME LIKE 'super%'
