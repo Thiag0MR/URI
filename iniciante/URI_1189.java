@@ -3,6 +3,7 @@ package iniciante;
 import java.util.Scanner;
 import java.util.Locale;
 
+// URI 1189 - Área Esquerda
 public class URI_1189 {
     public static void main(String[] args) {
 
